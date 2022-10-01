@@ -1,0 +1,16 @@
+$background-dark: #512da8;
+$background-pale: #d1c4e9;
+.modal {
+  .modal-header {
+    background-color: $background-dark;
+    .modal-title {
+      color: floralwhite;
+    }
+    .btn-close {
+      color: floralwhite;
+    }
+  }
+  .modal-body {
+    background-color: $background-pale;
+  }
+}

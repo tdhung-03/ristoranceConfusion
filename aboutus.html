@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- build:css css/main.css -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <!-- endbuild -->
+  <title>Ristorante Con Fusion: About Us</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark" style="background-color: #512da8">
+    <div class="container px-sm-4">
+      <a href="./index.html" class="navbar-brand"><img src="/img/logo.png" alt="" height="30px" width="41px" /></a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Navbar"><i
+          class="navbar-toggler-icon"></i></button>
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link" aria-current="page"><i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active"><i class="fa-solid fa-info"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"><i class="fa-solid fa-bars"></i> Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contactus.html" class="nav-link"><i class="fa-solid fa-address-book"></i> Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <a href="#loginModal" data-bs-toggle="modal" class="navbar-text" onmouseover="this.style.color='white'"
+            onmouseout="this.style.color='#ffffff8c'"><i class="fa-solid fa-right-to-bracket"></i> Log in</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="loginModal" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Login</h5>
+          <button class="btn-close btn-close-white btn-sm" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <input type="text" class="form-control" placeholder="Enter email" />
+            <input type="password" class="form-control mt-2" placeholder="Password" />
+            <input type="checkbox" class="mt-2" />
+            <label for="" class="form-label mt-2">Remember me</label>
+          </form>
+          <div class="d-flex justify-content-end">
+            <button class="btn btn-primary">Log in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="jumbotron">
+    <div class="container px-sm-4">
+      <div class="row align-items-center">
+        <div class="col-sm-6">
+          <h1>Ristorante con Fusion</h1>
+          <p>
+            We take inspiration from the World's best cuisines, and create a
+            unique fusion experience. Our lipsmacking creations will tickle
+            your culinary senses!
+          </p>
+        </div>
+        <div class="col-sm-3 d-flex justify-content-center">
+          <img src="/img/logo.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="container px-sm-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">About Us</li>
+        </ol>
+      </nav>
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>About Us</h3>
+          <hr />
+        </div>
+      </div>
+
+      <div class="row row-content align-items-center">
+        <div class="col-sm-6">
+          <h2>Our History</h2>
+          <p>
+            Started in 2010, Ristorante con Fusion quickly established itself
+            as a culinary icon par excellence in Hong Kong. With its unique
+            brand of world fusion cuisine that can be found nowhere else, it
+            enjoys patronage from the A-list clientele in Hong Kong. Featuring
+            four of the best three-star Michelin chefs in the world, you never
+            know what will arrive on your plate the next time you visit us.
+          </p>
+          <p>
+            The restaurant traces its humble beginnings to
+            <em>The Frying Pan</em>, a successful chain started by our CEO,
+            Mr. Peter Pan, that featured for the first time the world's best
+            cuisines in a pan.
+          </p>
+        </div>
+      </div>
+
+      <div class="row row-content align-items-center py-5">
+        <div class="col-sm-10">
+          <h2>Corporate Leadership</h2>
+          <div class="accordion" id="accordion-main">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#peter">
+                  <h4>Peter Pan, <small>CEO</small></h4>
+                </button>
+              </div>
+              <div id="peter" class="accordion-body collapse" data-bs-parent="#accordion-main">
+                <p>
+                  Our CEO, Peter, credits his hardworking East Asian immigrant
+                  parents who undertook the arduous journey to the shores of
+                  America with the intention of giving their children the best
+                  future. His mother's wizardy in the kitchen whipping up the
+                  tastiest dishes with whatever is available inexpensively at
+                  the supermarket, was his first inspiration to create the
+                  fusion cuisines for which
+                  <em>The Frying Pan</em> became well known. He brings his
+                  zeal for fusion cuisines to this restaurant, pioneering
+                  cross-cultural culinary connections.
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#danny">
+                  <h4>Dhanasekaran Witherspoon, <small>CFO</small></h4>
+                </button>
+              </div>
+              <div id="danny" class="accordion-body collapse" data-bs-parent="#accordion-main">
+                <p>
+                  Our CFO, Danny, as he is affectionately referred to by his
+                  colleagues, comes from a long established family tradition
+                  in farming and produce. His experiences growing up on a farm
+                  in the Australian outback gave him great appreciation for
+                  varieties of food sources. As he puts it in his own words,
+                  <em>Everything that runs, wins, and everything that stays,
+                    pays!</em>
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#agumbe">
+                  <h4>Agumbe Tang, <small>CTO</small></h4>
+                </button>
+              </div>
+              <div id="agumbe" class="accordion-body collapse" data-bs-parent="#accordion-main">
+                <p>
+                  Blessed with the most discerning gustatory sense, Agumbe,
+                  our CTO, personally ensures that every dish that we serve
+                  meets his exacting tastes. Our chefs dread the tongue
+                  lashing that ensues if their dish does not meet his exacting
+                  standards. He lives by his motto,
+                  <em>You click only if you survive my lick.</em>
+                </p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#alberto">
+                  <h4>Alberto Somayya, <small>EC</small></h4>
+                </button>
+              </div>
+              <div id="alberto" class="accordion-body collapse" data-bs-parent="#accordion-main">
+                <p>
+                  Award winning three-star Michelin chef with wide
+                  International experience having worked closely with whos-who
+                  in the culinary world, he specializes in creating
+                  mouthwatering Indo-Italian fusion experiences. He says,
+                  <em>Put together the cuisines from the two craziest cultures,
+                    and you get a winning hit! Amma Mia!</em>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container px-sm-4">
+      <div class="row">
+        <div class="col-6 offset-sm-1 col-sm-3">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="./contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm-4">
+          <h5>Our Address</h5>
+          <address>
+            121, Clear Water Bay Road<br />
+            Clear Water Bay, Kowloon<br />
+            HONG KONG<br />
+            <i class="fa-solid fa-phone"></i> +852 1234 5678<br />
+            <i class="fa-solid fa-fax"></i> +852 8765 4321<br />
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:confusion@food.net">confusion@food.net</a>
+          </address>
+        </div>
+        <div class="col-sm-4 align-self-center d-flex justify-content-center">
+          <a class="btn btn-lg" href="http://google.com/+">
+            <i class="fa-brands fa-google-plus"></i></a>
+          <a class="btn btn-lg" href="http://www.facebook.com/profile.php?id=" target="_blank"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a class="btn btn-lg" href="http://www.linkedin.com/in/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a class="btn btn-lg" href="http://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a class="btn btn-lg" href="http://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a class="btn btn-lg" href="mailto:" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 d-flex justify-content-center">
+          <p>© Copyright 2018 Ristorante Con Fusion</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- build:js js/main.js -->
+  <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="/node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/js/scripts.js"></script>
+  <!-- build:js js/main.js -->
+</body>
+
+</html>

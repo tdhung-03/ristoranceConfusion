@@ -1,0 +1,13 @@
+.modal .modal-header {
+  background-color: #512da8;
+}
+.modal .modal-header .modal-title {
+  color: floralwhite;
+}
+.modal .modal-header .btn-close {
+  color: floralwhite;
+}
+
+.modal .modal-body {
+  background-color: #d1c4e9;
+}
